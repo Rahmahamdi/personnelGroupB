@@ -18,5 +18,5 @@ CREATE TABLE `employe` (
 ) ;
 
 
-ALTER TABLE `employe` ADD FOREIGN KEY  ('id_ligue') REFERENCES ligue ('id_ligue');
+ALTER TABLE `employe` ADD FOREIGN KEY  (`id_ligue`) REFERENCES `ligue` (`id_ligue`);
 
